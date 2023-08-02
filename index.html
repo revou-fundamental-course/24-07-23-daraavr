@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RevoU Fundamental Course</title>
+    <link rel="stylesheet" href="./src/style/global.css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="logo">
+        <img src="./src/img/moqups_logo.png" alt="Logo" />
+      </div>
+      <nav class="navbar" id="navbar">
+        <ul>
+          <li><a href="#main">Home</a></li>
+          <li><a href="#our_package">Our Package</a></li>
+          <li><a href="#callus">Call Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <sectiion id="main">
+      <div class="container">
+        <div class="banner-slider">
+          <div class="banner-slide">
+            <img src="./src/img/gambar1.jpg" alt="Gambar 1" />
+            <div class="banner-caption">
+              Your Trusted Travel Agent's
+            </div>
+          </div>
+          <div class="banner-slide">
+            <img src="./src/img/gambar2.jpg" alt="Gambar 2" />
+            <div class="banner-caption">Best Travel Agent in the world</div>
+          </div>
+          <div class="banner-slide">
+            <img src="./src/img/gambar3.jpg" alt="Gambar 3" />
+            <div class="banner-caption">Make your Holiday better with us</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="left-section">
+          <img src="./src/img/banner.jpg" alt="Gambar" />
+          <div class="profile-container">
+            <div class="profile-picture">
+              <img src="https://picsum.photos/200" alt="Profile Picture" />
+            </div>
+            <div class="profile-details">
+              <h2 class="profile-name">Florence Hughes</h2>
+              <p class="profile-description">Ibu Rumah Tangga, 28</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-section">
+          <h2>Contact Us</h2>
+          <p>"Your Happiness is our Happiness"</p>
+          <form name="contactForm" onsubmit="submitForm(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <select id="message" name="message" required>
+              <option value="">Select a message type</option>
+              <option value="General Inquiry">General Inquiry</option>
+              <option value="Product Support">Product Support</option>
+              <option value="Feedback">Feedback</option>
+            </select>
+
+            <input type="submit" value="SEND" />
+          </form>
+        </div>
+      </div>
+    </sectiion>
+
+    <section id="coupon">
+      <div class="coupon-container">
+        <div class="coupon">
+          <div class="coupon-image">
+            <img src="https://picsum.photos/200" alt="Coupon Image 1" />
+          </div>
+          <div class="coupon-details">
+            <h3 class="coupon-name">Kupon Gratis Ongkir</h3>
+            <p class="coupon-description">Klaim Sekarang !</p>
+            <button class="claim-button">Claim</button>
+          </div>
+        </div>
+        <div class="coupon">
+          <div class="coupon-image">
+            <img src="https://picsum.photos/200" alt="Coupon Image 2" />
+          </div>
+          <div class="coupon-details">
+            <h3 class="coupon-name">Kupon Diskon 50%</h3>
+            <p class="coupon-description">Klaim Sekarang !</p>
+            <button class="claim-button">Claim</button>
+          </div>
+        </div>
+        <div class="coupon">
+          <div class="coupon-image">
+            <img src="https://picsum.photos/200" alt="Coupon Image 3" />
+          </div>
+          <div class="coupon-details">
+            <h3 class="coupon-name">Kupon Cashback max 200rb</h3>
+            <p class="coupon-description">Klaim Sekarang !</p>
+            <button class="claim-button">Claim</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our_package">
+      <div class="container">
+        <div class="banner">
+          <h1>Our Package</h1>
+        </div>
+      </div>
+      <div class="feature-container">
+        <div class="feature">
+          <div class="feature-icon">
+            <img
+              src="https://dummyimage.com/100x100/ccc/fff&text=Icon+1"
+              alt="Feature Icon"
+            />
+          </div>
+          <div class="feature-content">
+            <h3 class="feature-name">Bali</h3>
+            <p class="feature-description">
+              Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner yang menarik
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <img
+              src="https://dummyimage.com/100x100/ccc/fff&text=Icon+2"
+              alt="Feature Icon"
+            />
+          </div>
+          <div class="feature-content">
+            <h3 class="feature-name">Japan</h3>
+            <p class="feature-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <img
+              src="https://dummyimage.com/100x100/ccc/fff&text=Icon+3"
+              alt="Feature Icon"
+            />
+          </div>
+          <div class="feature-content">
+            <h3 class="feature-name">Singapore</h3>
+            <p class="feature-description">
+              Travel dan wisata di Japan kunjungi cagar budaya dan kuliner yang menarik
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <img
+              src="https://dummyimage.com/100x100/ccc/fff&text=Icon+4"
+              alt="Feature Icon"
+            />
+          </div>
+          <div class="feature-content">
+            <h3 class="feature-name">Bandung</h3>
+            <p class="feature-description">
+              This description supports and extends the bullet point above.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <img
+              src="https://dummyimage.com/100x100/ccc/fff&text=Icon+5"
+              alt="Feature Icon"
+            />
+          </div>
+          <div class="feature-content">
+            <h3 class="feature-name">Surabaya</h3>
+            <p class="feature-description">
+              Travel dan wisata di Japan kunjungi cagar budaya dan kuliner yang menarik
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">
+            <img
+              src="https://dummyimage.com/100x100/ccc/fff&text=Icon+6"
+              alt="Feature Icon"
+            />
+          </div>
+          <div class="feature-content">
+            <h3 class="feature-name">Third Features</h3>
+            <p class="feature-description">
+              This description supports and extends the bullet point above
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="callus">
+      <div class="container">
+        <div class="banner">
+          <h1>Your Closing Argument Here</h1>
+          <h4>
+            Suspendisse egestas roncus urna in bibendum. Donec urna neque, cuismad sed
+justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla,
+          </h4>
+          <button class="custom-button">Call to Action</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <img src="./src/img/moqups_logo.png" alt="Logo" />
+      <h6>Terms of services Privacy policy</h6>
+    </section>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
